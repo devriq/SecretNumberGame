@@ -32,7 +32,7 @@ namespace SecretNumberGame
             while (number != gameSecret)
             {
                 printMessage("ERROR", errorColor);
-                printMessage("Make another guess...", instructionColor);
+                printMessage("Make another guess, please...", instructionColor);
                 input = Console.ReadLine();
                 userGuess = Int32.Parse(input);
                 checkResult(userGuess);
